@@ -7,8 +7,9 @@ CLvoiture_de_sport::CLvoiture_de_sport() : CLvoiture()
 {
 }
 
-CLvoiture_de_sport::CLvoiture_de_sport(int a, int b) : CLvoiture(a,b)
+CLvoiture_de_sport::CLvoiture_de_sport(int a, int b)
 {
+	acceleration = b, vitesse = 0, vitesseMax = a;
 	if (vitesseMax > 200) { vitesseMax = 200; }
 	if (acceleration > 8) { acceleration = 8; }
 }

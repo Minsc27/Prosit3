@@ -6,7 +6,7 @@ public:
 	CLvoiture(int, int);
 	CLvoiture(CLvoiture const& copie);
 
-	void accelerer();
+	virtual void accelerer();
 
 	virtual ~CLvoiture();
 

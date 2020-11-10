@@ -24,7 +24,7 @@ void CLvoiture::accelerer()
 		vitesse = acceleration *t;
 	}
 	vitesse = vitesseMax;
-	cout << "la vitesse max"<< vitesse << "est obtenue en " << t << "seconde" << endl;
+	cout << "la vitesse max "<< vitesse << " est obtenue en " << t << "seconde" << endl;
 }
 
 CLvoiture::~CLvoiture()

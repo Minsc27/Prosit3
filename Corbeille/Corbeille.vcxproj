@@ -139,12 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CLmotolavage.cpp" />
+    <ClCompile Include="CLvehiculelavage.cpp" />
     <ClCompile Include="CLvoiture.cpp" />
+    <ClCompile Include="CLvoiturelavage.cpp" />
     <ClCompile Include="CLvoiture_de_sport.cpp" />
     <ClCompile Include="Corbeille.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CLmotolavage.h" />
+    <ClInclude Include="CLvehiculelavage.h" />
     <ClInclude Include="CLvoiture.h" />
+    <ClInclude Include="CLvoiturelavage.h" />
     <ClInclude Include="CLvoiture_de_sport.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

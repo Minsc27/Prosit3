@@ -24,12 +24,30 @@
     <ClCompile Include="CLvoiture_de_sport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CLvehiculelavage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLmotolavage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLvoiturelavage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLvoiture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CLvoiture_de_sport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLvehiculelavage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLmotolavage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLvoiturelavage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
