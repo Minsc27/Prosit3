@@ -9,6 +9,5 @@ public:
 	~CLmotolavage();
 
 	void lavage(void);
-	void stockage(vector<CLvehiculelavage*>);
 };
 

@@ -145,6 +145,9 @@
     <ClCompile Include="CLvoiturelavage.cpp" />
     <ClCompile Include="CLvoiture_de_sport.cpp" />
     <ClCompile Include="Corbeille.cpp" />
+    <ClCompile Include="Instrument.cpp" />
+    <ClCompile Include="Piano.cpp" />
+    <ClCompile Include="Saxophone.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLmotolavage.h" />
@@ -152,6 +155,9 @@
     <ClInclude Include="CLvoiture.h" />
     <ClInclude Include="CLvoiturelavage.h" />
     <ClInclude Include="CLvoiture_de_sport.h" />
+    <ClInclude Include="Instrument.h" />
+    <ClInclude Include="Piano.h" />
+    <ClInclude Include="Saxophone.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

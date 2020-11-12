@@ -139,12 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CLparcours.cpp" />
+    <ClCompile Include="CLparcours2D.cpp" />
+    <ClCompile Include="CLparcours3D.cpp" />
     <ClCompile Include="CLpoint.cpp" />
     <ClCompile Include="CLpoint2D.cpp" />
     <ClCompile Include="CLpoint3D.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CLparcours.h" />
+    <ClInclude Include="CLparcours2D.h" />
+    <ClInclude Include="CLparcours3D.h" />
     <ClInclude Include="CLpoint.h" />
     <ClInclude Include="CLpoint2D.h" />
     <ClInclude Include="CLpoint3D.h" />

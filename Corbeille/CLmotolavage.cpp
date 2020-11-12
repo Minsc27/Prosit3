@@ -1,4 +1,5 @@
 #include "CLmotolavage.h"
+#include <iostream>
 
 CLmotolavage::CLmotolavage()
 {
@@ -10,8 +11,5 @@ CLmotolavage::~CLmotolavage()
 
 void CLmotolavage::lavage(void)
 {
-}
-
-void CLmotolavage::stockage(vector<CLvehiculelavage*>)
-{
+	cout << "moto lavee" << endl;
 }

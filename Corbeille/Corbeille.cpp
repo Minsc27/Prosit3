@@ -4,22 +4,44 @@
 #include <iostream>
 #include <vector>
 #include "CLvehiculelavage.h"
-
-/*exo 1:
+#include "CLvoiturelavage.h"
+#include "CLmotolavage.h"
 #include "CLvoiture.h"
 #include "CLvoiture_de_sport.h"
-CLvoiture* voiture1(0), * voiture2(0);
-voiture1 = new CLvoiture(400, 23);
-voiture2 = new CLvoiture_de_sport(400, 23);
+#include "Instrument.h"
+#include "Piano.h"
+#include "Saxophone.h"
 
-voiture1->accelerer();
-voiture2->accelerer();
-
-voiture1 = new CLvoiture_de_sport(400, 23);
-voiture1->accelerer();*/
 
 int main()
 {
-	vector<CLvehiculelavage*> listealaver;
+	//exo1
+	CLvoiture* voiture1(0), * voiture2(0);
+	voiture1 = new CLvoiture(400, 23);
+	voiture2 = new CLvoiture_de_sport(400, 23);
 
+	voiture1->accelerer();
+	voiture2->accelerer();
+
+	voiture1 = new CLvoiture_de_sport(400, 23);
+	voiture1->accelerer();
+
+	//exo3
+	vector<CLvehiculelavage*> listealaver;
+	listealaver.push_back(new CLvoiturelavage());
+	listealaver.push_back(new CLvoiturelavage());
+	listealaver.push_back(new CLmotolavage());
+
+	for (int i(0); i < listealaver.size(); ++i)
+	{
+		listealaver[i]->lavage();
+	}
+
+	for (int i(0); i < listealaver.size(); ++i)
+	{
+		delete listealaver[i];
+		listealaver[i] = 0;
+	}
+
+	return 0;
 }

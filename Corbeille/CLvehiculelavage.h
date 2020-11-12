@@ -4,11 +4,8 @@ using namespace std;
 
 class CLvehiculelavage
 {
-private:
+public:
 	CLvehiculelavage();
 	~CLvehiculelavage();
-
-protected:
 	virtual void lavage(void) = 0;
-	virtual void stockage(vector<CLvehiculelavage*>) = 0;
 };

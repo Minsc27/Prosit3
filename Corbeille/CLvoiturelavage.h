@@ -4,10 +4,10 @@
 class CLvoiturelavage :
     public CLvehiculelavage
 {
+public:
 	CLvoiturelavage();
 	~CLvoiturelavage();
 
 	void lavage(void);
-	void stockage(vector<CLvehiculelavage*>);
 };
 

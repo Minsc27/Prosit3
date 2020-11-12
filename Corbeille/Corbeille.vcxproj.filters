@@ -33,6 +33,15 @@
     <ClCompile Include="CLvoiturelavage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Instrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Piano.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Saxophone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLvoiture.h">
@@ -48,6 +57,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CLvoiturelavage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Instrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Piano.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Saxophone.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
