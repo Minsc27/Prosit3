@@ -35,3 +35,4 @@ void CLpoint2D::setX(float _x)
 {
 	x = _x;
 }
+
